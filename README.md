@@ -1,6 +1,6 @@
 # hcm_analysis
 
-**Scripts and Results**
+**Scripts and results**
 
 1. Script for running linear mixed models on alpha diversity: "scr/run_lmm_alpha.py"  
    Results: "Results_alpha_lmm"  
@@ -14,7 +14,7 @@
 4. Linear model on PCs from CTF analysis: "CTF_lm/run_lm"  
    Results: "CTF_lm/Results_alpha_lm_PCs_1to12m"  
    
-**Other foldrs**
+**Other folders**
 
-data: raw data  
-R_scr: R scripts of ANCOM2 and Masslin2. 
+"data": raw data  
+"R_scr": R scripts of ANCOM2 and Masslin2. 
