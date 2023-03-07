@@ -1,0 +1,23 @@
+,Coef.,Std.Err.,z,P>|z|,[0.025,0.975],formula
+delivery[T.vaginal],-0.007,0.022,-0.339,0.735,-0.050,0.035,PC1 ~ delivery
+edu[T.secondary_any tertiary],-0.008,0.009,-0.851,0.395,-0.025,0.010,PC1 ~ edu
+excl_bf_maxtimepoint[T.T01],0.042,0.026,1.661,0.097,-0.008,0.092,PC1 ~ excl_bf_maxtimepoint
+excl_bf_maxtimepoint[T.T02],0.037,0.022,1.639,0.101,-0.007,0.081,PC1 ~ excl_bf_maxtimepoint
+excl_bf_maxtimepoint[T.T03],0.003,0.020,0.133,0.894,-0.037,0.042,PC1 ~ excl_bf_maxtimepoint
+excl_bf_maxtimepoint[T.T04],0.035,0.101,0.348,0.728,-0.162,0.232,PC1 ~ excl_bf_maxtimepoint
+excl_bf_maxtimepoint[T.T06],0.023,0.100,0.233,0.815,-0.173,0.220,PC1 ~ excl_bf_maxtimepoint
+gestation2[T.low],-0.055,0.016,-3.512,0.000,-0.086,-0.024,PC1 ~ gestation2
+gestation2[T.middle],-0.002,0.013,-0.162,0.872,-0.028,0.024,PC1 ~ gestation2
+HAZ12_2[T.low],0.024,0.040,0.608,0.543,-0.053,0.102,PC1 ~ HAZ12_2
+HAZ12_2[T.middle],0.016,0.037,0.420,0.675,-0.058,0.089,PC1 ~ HAZ12_2
+HIV[T.HIV_unexposed],0.029,0.015,1.957,0.050,-0.000,0.058,PC1 ~ HIV
+income2[T.low],0.044,0.004,10.090,0.000,0.035,0.052,PC1 ~ income2
+income2[T.middle],0.026,0.023,1.120,0.263,-0.019,0.071,PC1 ~ income2
+mom_smoke[T.yes],0.007,0.027,0.239,0.811,-0.047,0.060,PC1 ~ mom_smoke
+pets[T.yes],0.048,0.019,2.518,0.012,0.011,0.086,PC1 ~ pets
+sex[T.male],0.000,0.008,0.054,0.957,-0.014,0.015,PC1 ~ sex
+siblings2[T.yes],-0.032,0.021,-1.534,0.125,-0.073,0.009,PC1 ~ siblings2
+WAZ0_2[T.low],0.060,0.010,6.032,0.000,0.041,0.080,PC1 ~ WAZ0_2
+WAZ0_2[T.middle],0.068,0.015,4.504,0.000,0.039,0.098,PC1 ~ WAZ0_2
+WAZ12_2[T.low],0.001,0.023,0.041,0.967,-0.044,0.046,PC1 ~ WAZ12_2
+WAZ12_2[T.middle],0.015,0.008,1.801,0.072,-0.001,0.032,PC1 ~ WAZ12_2

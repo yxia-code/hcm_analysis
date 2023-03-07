@@ -1,0 +1,24 @@
+,Coef.,Std.Err.,z,P>|z|,[0.025,0.975],formula,groups
+delivery[T.vaginal],0.736,1.608,0.458,0.647,-2.416,3.888,chao1 ~ delivery+timepoint_month+age_days_numeric+collection_season2,short_PID
+edu[T.secondary_any tertiary],0.090,1.278,0.071,0.944,-2.414,2.595,chao1 ~ edu+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T01],0.495,1.568,0.316,0.752,-2.579,3.569,chao1 ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T02],0.683,1.922,0.355,0.722,-3.085,4.451,chao1 ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T03],0.082,1.593,0.052,0.959,-3.041,3.205,chao1 ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+gestation2[T.low],-0.959,2.536,-0.378,0.705,-5.930,4.011,chao1 ~ gestation2+timepoint_month+age_days_numeric+collection_season2,short_PID
+gestation2[T.middle],1.724,1.679,1.026,0.305,-1.568,5.015,chao1 ~ gestation2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HAZ12_2[T.low],4.028,2.202,1.830,0.067,-0.287,8.343,chao1 ~ HAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HAZ12_2[T.middle],3.960,2.099,1.887,0.059,-0.153,8.073,chao1 ~ HAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HIV[T.HIV_unexposed],-1.063,1.369,-0.776,0.438,-3.746,1.620,chao1 ~ HIV+timepoint_month+age_days_numeric+collection_season2,short_PID
+income2[T.low],-0.285,1.872,-0.152,0.879,-3.954,3.384,chao1 ~ income2+timepoint_month+age_days_numeric+collection_season2,short_PID
+income2[T.middle],2.595,1.906,1.361,0.173,-1.141,6.331,chao1 ~ income2+timepoint_month+age_days_numeric+collection_season2,short_PID
+mom_smoke[T.yes],2.762,1.589,1.738,0.082,-0.353,5.876,chao1 ~ mom_smoke+timepoint_month+age_days_numeric+collection_season2,short_PID
+pets[T.yes],-0.937,1.344,-0.697,0.486,-3.572,1.697,chao1 ~ pets+timepoint_month+age_days_numeric+collection_season2,short_PID
+sex[T.male],0.916,1.192,0.768,0.442,-1.421,3.252,chao1 ~ sex+timepoint_month+age_days_numeric+collection_season2,short_PID
+siblings2[T.yes],0.690,1.242,0.556,0.579,-1.744,3.123,chao1 ~ siblings2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ0_2[T.low],0.965,2.198,0.439,0.661,-3.343,5.273,chao1 ~ WAZ0_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ0_2[T.middle],1.595,2.039,0.782,0.434,-2.401,5.592,chao1 ~ WAZ0_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ12_2[T.low],-1.511,2.073,-0.729,0.466,-5.574,2.552,chao1 ~ WAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ12_2[T.middle],-0.872,1.611,-0.541,0.588,-4.029,2.286,chao1 ~ WAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.autumn],-1.449,1.315,-1.102,0.271,-4.027,1.129,chao1 ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.spring],0.874,1.236,0.708,0.479,-1.547,3.296,chao1 ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.winter],1.166,1.400,0.833,0.405,-1.578,3.911,chao1 ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID

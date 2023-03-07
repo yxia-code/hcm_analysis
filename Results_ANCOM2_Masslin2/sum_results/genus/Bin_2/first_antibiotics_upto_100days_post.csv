@@ -1,0 +1,3 @@
+feature,metadata,value,coef,stderr,N,N.not.0,pval,qval,ANCOM_W_cutoff_0.6,W
+Porphyromonas,first_antibiotics_upto_100days_post,yes,1.61202464313427,0.365804796786768,255,62,1.92152611100071e-05,0.0018254498054506,True,13
+Porphyromonas,first_antibiotics_upto_100days_post,yes,1.61202464313427,0.365804796786768,255,62,1.92152611100071e-05,0.0018254498054506,True,13

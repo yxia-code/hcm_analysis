@@ -1,0 +1,2 @@
+feature,metadata,value,coef,stderr,N,N.not.0,pval,qval,ANCOM_W_cutoff_0.6,W
+Moraxella,siblings2,yes,-0.678733154667249,0.217908855091787,462,458,0.0025942647195955,0.0220512501165623,False,5

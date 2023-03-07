@@ -1,0 +1,97 @@
+2022-12-11 07:21:18 INFO::Writing function arguments to log file
+2022-12-11 07:21:18 DEBUG::Function arguments
+2022-12-11 07:21:18 DEBUG::Output folder: Results/Maaslin2_revised/asv/Bin_3/income2
+2022-12-11 07:21:18 DEBUG::Min Abundance: 0.000000
+2022-12-11 07:21:18 DEBUG::Min Prevalence: 0.100000
+2022-12-11 07:21:18 DEBUG::Normalization: CLR
+2022-12-11 07:21:18 DEBUG::Transform: NONE
+2022-12-11 07:21:18 DEBUG::Analysis method: LM
+2022-12-11 07:21:18 DEBUG::Max significance: 0.250000
+2022-12-11 07:21:18 DEBUG::Random effects: short_PID
+2022-12-11 07:21:18 DEBUG::Fixed effects: age_days_numeric,collection_season2,income2
+2022-12-11 07:21:18 DEBUG::Correction method: BH
+2022-12-11 07:21:18 DEBUG::Standardize: TRUE
+2022-12-11 07:21:18 DEBUG::Cores: 1
+2022-12-11 07:21:18 INFO::Verifying options selected are valid
+2022-12-11 07:21:18 INFO::Determining format of input files
+2022-12-11 07:21:18 INFO::Input format is data samples as rows and metadata samples as rows
+2022-12-11 07:21:18 DEBUG::A total of 462 samples were found in both the data and metadata
+2022-12-11 07:21:18 DEBUG::Reordering data/metadata to use same sample ordering
+2022-12-11 07:21:18 INFO::Formula for random effects: expr ~ (1 | short_PID)
+2022-12-11 07:21:18 INFO::Formula for fixed effects: expr ~  age_days_numeric + collection_season2 + income2
+2022-12-11 07:21:18 INFO::Filter data based on min abundance and min prevalence
+2022-12-11 07:21:18 INFO::Total samples in data: 462
+2022-12-11 07:21:18 INFO::Min samples required with min abundance for a feature not to be filtered: 46.200000
+2022-12-11 07:21:18 INFO::Total filtered features: 0
+2022-12-11 07:21:18 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-12-11 07:21:18 INFO::Total filtered features with variance filtering: 0
+2022-12-11 07:21:18 INFO::Filtered feature names from variance filtering:
+2022-12-11 07:21:18 INFO::Running selected normalization method: CLR
+2022-12-11 07:21:18 INFO::Applying z-score to standardize continuous metadata
+2022-12-11 07:21:18 INFO::Running selected transform method: NONE
+2022-12-11 07:21:18 INFO::Running selected analysis method: LM
+2022-12-11 07:21:18 INFO::Fitting model to feature number 1, ASV_4_Corynebacterium_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 2, ASV_8_Corynebacterium_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 3, ASV_58_Porphyromonas_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 4, ASV_33_Alloprevotella_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 5, ASV_6_Dolosigranulum_pigrum
+2022-12-11 07:21:18 INFO::Fitting model to feature number 6, ASV_10_Streptococcus_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 7, ASV_24_Streptococcus_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 8, ASV_7_Streptococcus_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 9, ASV_39_Gemella_nan
+2022-12-11 07:21:18 INFO::Fitting model to feature number 10, ASV_5_Staphylococcus_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 11, ASV_35_ASV_35_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 12, ASV_174_Helcococcus_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 13, ASV_13_Neisseria_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 14, ASV_20_Neisseria_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 15, ASV_22_ASV_22_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 16, ASV_2_Haemophilus_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 17, ASV_3_Haemophilus_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 18, ASV_1_Moraxella_nan
+2022-12-11 07:21:19 INFO::Fitting model to feature number 19, ASV_11_Moraxella_lincolnii
+2022-12-11 07:21:19 INFO::Counting total values for each feature
+2022-12-11 07:21:19 INFO::Writing residuals to file Results/Maaslin2_revised/asv/Bin_3/income2/residuals.rds
+2022-12-11 07:21:19 INFO::Writing fitted values to file Results/Maaslin2_revised/asv/Bin_3/income2/fitted.rds
+2022-12-11 07:21:19 INFO::Writing extracted random effects to file Results/Maaslin2_revised/asv/Bin_3/income2/ranef.rds
+2022-12-11 07:21:19 INFO::Writing all results to file (ordered by increasing q-values): Results/Maaslin2_revised/asv/Bin_3/income2/all_results.tsv
+2022-12-11 07:21:19 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Results/Maaslin2_revised/asv/Bin_3/income2/significant_results.tsv
+2022-12-11 07:21:19 INFO::Writing heatmap of significant results to file: Results/Maaslin2_revised/asv/Bin_3/income2/heatmap.pdf
+2022-12-11 07:21:19 INFO::Writing association plots (one for each significant association) to output folder: Results/Maaslin2_revised/asv/Bin_3/income2
+2022-12-11 07:21:19 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-12-11 07:21:19 INFO::Plotting data for metadata number 1, age_days_numeric
+2022-12-11 07:21:19 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_174_Helcococcus_nan
+2022-12-11 07:21:19 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:21:19 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_11_Moraxella_lincolnii
+2022-12-11 07:21:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:21:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_22_ASV_22_nan
+2022-12-11 07:21:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:21:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_8_Corynebacterium_nan
+2022-12-11 07:21:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:21:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_35_ASV_35_nan
+2022-12-11 07:21:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:21:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_4_Corynebacterium_nan
+2022-12-11 07:21:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:21:21 INFO::Plotting data for metadata number 2, collection_season2
+2022-12-11 07:21:21 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_20_Neisseria_nan
+2022-12-11 07:21:21 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_4_Corynebacterium_nan
+2022-12-11 07:21:22 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_4_Corynebacterium_nan
+2022-12-11 07:21:22 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_20_Neisseria_nan
+2022-12-11 07:21:22 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_20_Neisseria_nan
+2022-12-11 07:21:22 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_2_Haemophilus_nan
+2022-12-11 07:21:22 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_1_Moraxella_nan
+2022-12-11 07:21:22 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_35_ASV_35_nan
+2022-12-11 07:21:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_174_Helcococcus_nan
+2022-12-11 07:21:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_174_Helcococcus_nan
+2022-12-11 07:21:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_3_Haemophilus_nan
+2022-12-11 07:21:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_4_Corynebacterium_nan
+2022-12-11 07:21:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_35_ASV_35_nan
+2022-12-11 07:21:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_58_Porphyromonas_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_7_Streptococcus_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_2_Haemophilus_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_13_Neisseria_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_39_Gemella_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_58_Porphyromonas_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_13_Neisseria_nan
+2022-12-11 07:21:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_35_ASV_35_nan
+2022-12-11 07:21:26 INFO::Plotting data for metadata number 3, income2
+2022-12-11 07:21:26 INFO::Creating boxplot for categorical data, income2 vs ASV_5_Staphylococcus_nan

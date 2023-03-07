@@ -1,0 +1,29 @@
+,Coef.,Std.Err.,z,P>|z|,[0.025,0.975],formula,groups
+delivery[T.vaginal],0.136,0.092,1.469,0.142,-0.045,0.317,shannon ~ delivery+timepoint_month+age_days_numeric+collection_season2,short_PID
+edu[T.secondary_any tertiary],0.236,0.078,3.010,0.003,0.082,0.389,shannon ~ edu+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T01],0.026,0.093,0.275,0.783,-0.157,0.208,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T02],0.050,0.118,0.425,0.670,-0.181,0.281,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T03],-0.168,0.129,-1.310,0.190,-0.421,0.084,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T04],0.580,0.160,3.620,0.000,0.266,0.894,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T05],-0.026,0.240,-0.109,0.913,-0.496,0.444,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T06],-0.074,0.135,-0.545,0.585,-0.338,0.191,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+gestation2[T.low],0.292,0.154,1.893,0.058,-0.010,0.595,shannon ~ gestation2+timepoint_month+age_days_numeric+collection_season2,short_PID
+gestation2[T.middle],0.208,0.124,1.675,0.094,-0.035,0.450,shannon ~ gestation2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HAZ12_2[T.low],0.133,0.149,0.893,0.372,-0.159,0.425,shannon ~ HAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HAZ12_2[T.middle],0.059,0.142,0.414,0.679,-0.219,0.337,shannon ~ HAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HIV[T.HIV_unexposed],0.182,0.094,1.939,0.052,-0.002,0.366,shannon ~ HIV+timepoint_month+age_days_numeric+collection_season2,short_PID
+income2[T.low],-0.056,0.123,-0.453,0.651,-0.297,0.186,shannon ~ income2+timepoint_month+age_days_numeric+collection_season2,short_PID
+income2[T.middle],0.056,0.127,0.443,0.658,-0.193,0.305,shannon ~ income2+timepoint_month+age_days_numeric+collection_season2,short_PID
+mom_smoke[T.yes],0.110,0.111,0.992,0.321,-0.107,0.327,shannon ~ mom_smoke+timepoint_month+age_days_numeric+collection_season2,short_PID
+pets[T.yes],0.040,0.089,0.446,0.656,-0.134,0.213,shannon ~ pets+timepoint_month+age_days_numeric+collection_season2,short_PID
+sex[T.male],-0.035,0.079,-0.444,0.657,-0.189,0.119,shannon ~ sex+timepoint_month+age_days_numeric+collection_season2,short_PID
+siblings2[T.yes],0.024,0.082,0.296,0.767,-0.136,0.184,shannon ~ siblings2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ0_2[T.low],-0.105,0.146,-0.724,0.469,-0.391,0.180,shannon ~ WAZ0_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ0_2[T.middle],-0.075,0.138,-0.542,0.588,-0.346,0.196,shannon ~ WAZ0_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ12_2[T.low],0.165,0.130,1.262,0.207,-0.091,0.420,shannon ~ WAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ12_2[T.middle],-0.040,0.106,-0.373,0.709,-0.247,0.168,shannon ~ WAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.autumn],-0.098,0.097,-1.006,0.314,-0.289,0.093,shannon ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.spring],0.098,0.100,0.976,0.329,-0.099,0.294,shannon ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.winter],-0.003,0.094,-0.035,0.972,-0.188,0.181,shannon ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+daycare_prior_sampling[T.yes],-0.056,0.163,-0.345,0.730,-0.376,0.264,shannon ~ daycare_prior_sampling+timepoint_month+age_days_numeric+collection_season2,short_PID
+first_antibiotics_upto_100days_post[T.yes],0.012,0.122,0.097,0.923,-0.228,0.251,shannon ~ first_antibiotics_upto_100days_post+timepoint_month+age_days_numeric+collection_season2,short_PID

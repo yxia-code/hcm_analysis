@@ -1,0 +1,2 @@
+feature,metadata,value,coef,stderr,N,N.not.0,pval,qval,ANCOM_W_cutoff_0.6,W
+ASV_58_Porphyromonas_nan,sex,male,-0.659931600456379,0.222303481647212,210,29,0.004130219717922,0.0430231220616876,False,0

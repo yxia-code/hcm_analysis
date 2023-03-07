@@ -1,0 +1,3 @@
+feature,metadata,value,coef,stderr,N,N.not.0,pval,qval,ANCOM_W_cutoff_0.6,W
+Moraxella,first_hosp_upto_100days_post,yes,-2.72557428713028,0.362985421073846,462,458,6.51980101737549e-13,5.541830864769169e-11,True,16
+Moraxella,first_hosp_upto_100days_post,yes,-2.72557428713028,0.362985421073846,462,458,6.51980101737549e-13,5.541830864769169e-11,True,16

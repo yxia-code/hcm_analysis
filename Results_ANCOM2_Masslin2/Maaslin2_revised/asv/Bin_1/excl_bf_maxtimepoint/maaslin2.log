@@ -1,0 +1,113 @@
+2022-12-11 07:12:18 INFO::Writing function arguments to log file
+2022-12-11 07:12:18 DEBUG::Function arguments
+2022-12-11 07:12:18 DEBUG::Output folder: Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint
+2022-12-11 07:12:18 DEBUG::Min Abundance: 0.000000
+2022-12-11 07:12:18 DEBUG::Min Prevalence: 0.100000
+2022-12-11 07:12:18 DEBUG::Normalization: CLR
+2022-12-11 07:12:18 DEBUG::Transform: NONE
+2022-12-11 07:12:18 DEBUG::Analysis method: LM
+2022-12-11 07:12:18 DEBUG::Max significance: 0.250000
+2022-12-11 07:12:18 DEBUG::Random effects: short_PID
+2022-12-11 07:12:18 DEBUG::Fixed effects: age_days_numeric,collection_season2,excl_bf_maxtimepoint
+2022-12-11 07:12:18 DEBUG::Correction method: BH
+2022-12-11 07:12:18 DEBUG::Standardize: TRUE
+2022-12-11 07:12:18 DEBUG::Cores: 1
+2022-12-11 07:12:18 INFO::Verifying options selected are valid
+2022-12-11 07:12:18 INFO::Determining format of input files
+2022-12-11 07:12:18 INFO::Input format is data samples as rows and metadata samples as rows
+2022-12-11 07:12:18 DEBUG::A total of 210 samples were found in both the data and metadata
+2022-12-11 07:12:18 DEBUG::Reordering data/metadata to use same sample ordering
+2022-12-11 07:12:18 INFO::Formula for random effects: expr ~ (1 | short_PID)
+2022-12-11 07:12:18 INFO::Formula for fixed effects: expr ~  age_days_numeric + collection_season2 + excl_bf_maxtimepoint
+2022-12-11 07:12:18 INFO::Filter data based on min abundance and min prevalence
+2022-12-11 07:12:18 INFO::Total samples in data: 210
+2022-12-11 07:12:18 INFO::Min samples required with min abundance for a feature not to be filtered: 21.000000
+2022-12-11 07:12:18 INFO::Total filtered features: 0
+2022-12-11 07:12:18 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-12-11 07:12:18 INFO::Total filtered features with variance filtering: 0
+2022-12-11 07:12:18 INFO::Filtered feature names from variance filtering:
+2022-12-11 07:12:18 INFO::Running selected normalization method: CLR
+2022-12-11 07:12:18 INFO::Applying z-score to standardize continuous metadata
+2022-12-11 07:12:18 INFO::Running selected transform method: NONE
+2022-12-11 07:12:18 INFO::Running selected analysis method: LM
+2022-12-11 07:12:18 INFO::Fitting model to feature number 1, ASV_14_Corynebacterium_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 2, ASV_28_Corynebacterium_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 3, ASV_34_Corynebacterium_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 4, ASV_4_Corynebacterium_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 5, ASV_8_Corynebacterium_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 6, ASV_40_Porphyromonas_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 7, ASV_58_Porphyromonas_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 8, ASV_33_Alloprevotella_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 9, ASV_63_ASV_63_nan
+2022-12-11 07:12:18 INFO::Fitting model to feature number 10, ASV_6_Dolosigranulum_pigrum
+2022-12-11 07:12:19 INFO::Fitting model to feature number 11, ASV_10_Streptococcus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 12, ASV_24_Streptococcus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 13, ASV_7_Streptococcus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 14, ASV_39_Gemella_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 15, ASV_5_Staphylococcus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 16, ASV_35_ASV_35_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 17, ASV_100_Veillonella_massiliensis
+2022-12-11 07:12:19 INFO::Fitting model to feature number 18, ASV_176_Veillonella_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 19, ASV_49_Streptobacillus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 20, ASV_13_Neisseria_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 21, ASV_22_ASV_22_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 22, ASV_18_Klebsiella_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 23, ASV_2_Haemophilus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 24, ASV_3_Haemophilus_nan
+2022-12-11 07:12:19 INFO::Fitting model to feature number 25, ASV_1_Moraxella_nan
+2022-12-11 07:12:20 INFO::Counting total values for each feature
+2022-12-11 07:12:20 WARNING::Deleting existing residuals file: Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/residuals.rds
+2022-12-11 07:12:20 INFO::Writing residuals to file Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/residuals.rds
+2022-12-11 07:12:20 WARNING::Deleting existing fitted file: Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/fitted.rds
+2022-12-11 07:12:20 INFO::Writing fitted values to file Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/fitted.rds
+2022-12-11 07:12:20 WARNING::Deleting existing ranef file: Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/ranef.rds
+2022-12-11 07:12:20 INFO::Writing extracted random effects to file Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/ranef.rds
+2022-12-11 07:12:20 INFO::Writing all results to file (ordered by increasing q-values): Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/all_results.tsv
+2022-12-11 07:12:20 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/significant_results.tsv
+2022-12-11 07:12:20 INFO::Writing heatmap of significant results to file: Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint/heatmap.pdf
+2022-12-11 07:12:20 INFO::Writing association plots (one for each significant association) to output folder: Results/Maaslin2_revised/asv/Bin_1/excl_bf_maxtimepoint
+2022-12-11 07:12:20 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-12-11 07:12:20 INFO::Plotting data for metadata number 1, age_days_numeric
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_5_Staphylococcus_nan
+2022-12-11 07:12:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_1_Moraxella_nan
+2022-12-11 07:12:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_14_Corynebacterium_nan
+2022-12-11 07:12:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_22_ASV_22_nan
+2022-12-11 07:12:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_2_Haemophilus_nan
+2022-12-11 07:12:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_6_Dolosigranulum_pigrum
+2022-12-11 07:12:20 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:20 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_10_Streptococcus_nan
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_7_Streptococcus_nan
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_3_Haemophilus_nan
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_8_Corynebacterium_nan
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_100_Veillonella_massiliensis
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_18_Klebsiella_nan
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_35_ASV_35_nan
+2022-12-11 07:12:21 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:21 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_28_Corynebacterium_nan
+2022-12-11 07:12:22 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:22 INFO::Creating scatter plot for continuous data, age_days_numeric vs ASV_39_Gemella_nan
+2022-12-11 07:12:22 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 07:12:23 INFO::Plotting data for metadata number 2, collection_season2
+2022-12-11 07:12:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_5_Staphylococcus_nan
+2022-12-11 07:12:23 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_5_Staphylococcus_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_2_Haemophilus_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_14_Corynebacterium_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_2_Haemophilus_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_14_Corynebacterium_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_18_Klebsiella_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_39_Gemella_nan
+2022-12-11 07:12:24 INFO::Creating boxplot for categorical data, collection_season2 vs ASV_4_Corynebacterium_nan
+2022-12-11 07:12:27 INFO::Plotting data for metadata number 3, excl_bf_maxtimepoint
+2022-12-11 07:12:27 INFO::Creating boxplot for categorical data, excl_bf_maxtimepoint vs ASV_7_Streptococcus_nan
+2022-12-11 07:12:27 INFO::Creating boxplot for categorical data, excl_bf_maxtimepoint vs ASV_33_Alloprevotella_nan

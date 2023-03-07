@@ -1,0 +1,3 @@
+feature,metadata,value,coef,stderr,N,N.not.0,pval,qval,ANCOM_W_cutoff_0.6,W
+ASV_11_Moraxella_lincolnii,daycare_prior_sampling,yes,-2.20449358397792,0.507106370426618,462,82,1.82239746441418e-05,0.0008325197857426,True,14
+ASV_11_Moraxella_lincolnii,daycare_prior_sampling,yes,-2.20449358397792,0.507106370426618,462,82,1.82239746441418e-05,0.0008325197857426,True,14

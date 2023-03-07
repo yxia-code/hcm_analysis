@@ -1,0 +1,3 @@
+feature	metadata	value	coef	stderr	N	N.not.0	pval	qval
+ASV_4_Corynebacterium_nan	collection_season2	winter	2.10680433434657	0.65481179906584	255	207	0.00153124753045154	0.101062337009802
+ASV_2_Haemophilus_nan	collection_season2	spring	2.82090082156562	0.829455275364638	255	140	0.000791835574064525	0.101062337009802

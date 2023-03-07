@@ -1,0 +1,31 @@
+,Coef.,Std.Err.,z,P>|z|,[0.025,0.975],formula,groups
+delivery[T.vaginal],0.045,0.082,0.546,0.585,-0.116,0.205,shannon ~ delivery+timepoint_month+age_days_numeric+collection_season2,short_PID
+edu[T.secondary_any tertiary],0.019,0.069,0.272,0.786,-0.117,0.155,shannon ~ edu+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T01],0.045,0.086,0.523,0.601,-0.124,0.215,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T02],0.106,0.109,0.973,0.330,-0.108,0.320,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T03],0.058,0.119,0.492,0.623,-0.174,0.291,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T04],0.306,0.155,1.973,0.049,0.002,0.610,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T05],-0.049,0.212,-0.234,0.815,-0.465,0.366,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+excl_bf_maxtimepoint[T.T06],0.076,0.113,0.667,0.505,-0.147,0.298,shannon ~ excl_bf_maxtimepoint+timepoint_month+age_days_numeric+collection_season2,short_PID
+gestation2[T.low],0.156,0.137,1.139,0.255,-0.113,0.426,shannon ~ gestation2+timepoint_month+age_days_numeric+collection_season2,short_PID
+gestation2[T.middle],0.103,0.114,0.907,0.364,-0.120,0.326,shannon ~ gestation2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HAZ12_2[T.low],0.201,0.173,1.162,0.245,-0.138,0.540,shannon ~ HAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HAZ12_2[T.middle],0.182,0.170,1.075,0.283,-0.150,0.514,shannon ~ HAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+HIV[T.HIV_unexposed],0.069,0.080,0.863,0.388,-0.088,0.225,shannon ~ HIV+timepoint_month+age_days_numeric+collection_season2,short_PID
+income2[T.low],-0.093,0.111,-0.836,0.403,-0.310,0.125,shannon ~ income2+timepoint_month+age_days_numeric+collection_season2,short_PID
+income2[T.middle],-0.052,0.113,-0.459,0.646,-0.274,0.170,shannon ~ income2+timepoint_month+age_days_numeric+collection_season2,short_PID
+mom_smoke[T.yes],0.069,0.089,0.771,0.441,-0.106,0.243,shannon ~ mom_smoke+timepoint_month+age_days_numeric+collection_season2,short_PID
+pets[T.yes],0.127,0.074,1.717,0.086,-0.018,0.271,shannon ~ pets+timepoint_month+age_days_numeric+collection_season2,short_PID
+sex[T.male],0.002,0.065,0.034,0.973,-0.126,0.131,shannon ~ sex+timepoint_month+age_days_numeric+collection_season2,short_PID
+siblings2[T.yes],0.110,0.067,1.645,0.100,-0.021,0.241,shannon ~ siblings2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ0_2[T.low],0.120,0.142,0.847,0.397,-0.158,0.398,shannon ~ WAZ0_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ0_2[T.middle],0.161,0.133,1.204,0.229,-0.101,0.422,shannon ~ WAZ0_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ12_2[T.low],0.160,0.109,1.469,0.142,-0.053,0.373,shannon ~ WAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+WAZ12_2[T.middle],-0.019,0.092,-0.206,0.837,-0.200,0.162,shannon ~ WAZ12_2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.autumn],-0.088,0.066,-1.321,0.186,-0.217,0.042,shannon ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.spring],-0.028,0.060,-0.465,0.642,-0.145,0.089,shannon ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+collection_season2[T.winter],-0.091,0.059,-1.534,0.125,-0.206,0.025,shannon ~ collection_season2+timepoint_month+age_days_numeric+collection_season2,short_PID
+daycare_prior_sampling[T.yes],-0.061,0.094,-0.651,0.515,-0.245,0.123,shannon ~ daycare_prior_sampling+timepoint_month+age_days_numeric+collection_season2,short_PID
+first_antibiotics_upto_100days_post[T.yes],0.085,0.069,1.227,0.220,-0.051,0.220,shannon ~ first_antibiotics_upto_100days_post+timepoint_month+age_days_numeric+collection_season2,short_PID
+first_hosp_upto_100days_post[T.yes],0.044,0.112,0.396,0.692,-0.175,0.264,shannon ~ first_hosp_upto_100days_post+timepoint_month+age_days_numeric+collection_season2,short_PID
+first_INH_upto_100days_post[T.yes],0.022,0.126,0.172,0.863,-0.226,0.269,shannon ~ first_INH_upto_100days_post+timepoint_month+age_days_numeric+collection_season2,short_PID

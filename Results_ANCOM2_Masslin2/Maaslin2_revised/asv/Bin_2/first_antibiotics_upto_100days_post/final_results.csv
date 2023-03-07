@@ -1,0 +1,3 @@
+feature,metadata,value,coef,stderr,N,N.not.0,pval,qval
+ASV_58_Porphyromonas_nan,first_antibiotics_upto_100days_post,yes,1.38153132238204,0.375743212159919,255,37,0.0003065936915697,0.0274839796209308
+ASV_4_Corynebacterium_nan,first_antibiotics_upto_100days_post,yes,-1.90413380565457,0.608093966436677,255,205,0.002011079710254,0.0442437536255882

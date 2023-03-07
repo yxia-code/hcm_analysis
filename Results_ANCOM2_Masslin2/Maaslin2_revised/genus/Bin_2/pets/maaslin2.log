@@ -1,0 +1,72 @@
+2022-12-11 05:54:00 INFO::Writing function arguments to log file
+2022-12-11 05:54:00 DEBUG::Function arguments
+2022-12-11 05:54:00 DEBUG::Output folder: Results/Maaslin2_revised/genus/Bin_2/pets
+2022-12-11 05:54:00 DEBUG::Min Abundance: 0.000000
+2022-12-11 05:54:00 DEBUG::Min Prevalence: 0.100000
+2022-12-11 05:54:00 DEBUG::Normalization: CLR
+2022-12-11 05:54:00 DEBUG::Transform: NONE
+2022-12-11 05:54:00 DEBUG::Analysis method: LM
+2022-12-11 05:54:00 DEBUG::Max significance: 0.250000
+2022-12-11 05:54:00 DEBUG::Random effects: short_PID
+2022-12-11 05:54:00 DEBUG::Fixed effects: age_days_numeric,collection_season2,pets
+2022-12-11 05:54:00 DEBUG::Correction method: BH
+2022-12-11 05:54:00 DEBUG::Standardize: TRUE
+2022-12-11 05:54:00 DEBUG::Cores: 1
+2022-12-11 05:54:00 INFO::Verifying options selected are valid
+2022-12-11 05:54:00 INFO::Determining format of input files
+2022-12-11 05:54:00 INFO::Input format is data samples as rows and metadata samples as rows
+2022-12-11 05:54:00 DEBUG::A total of 255 samples were found in both the data and metadata
+2022-12-11 05:54:00 DEBUG::Reordering data/metadata to use same sample ordering
+2022-12-11 05:54:00 INFO::Formula for random effects: expr ~ (1 | short_PID)
+2022-12-11 05:54:00 INFO::Formula for fixed effects: expr ~  age_days_numeric + collection_season2 + pets
+2022-12-11 05:54:00 INFO::Filter data based on min abundance and min prevalence
+2022-12-11 05:54:00 INFO::Total samples in data: 255
+2022-12-11 05:54:00 INFO::Min samples required with min abundance for a feature not to be filtered: 25.500000
+2022-12-11 05:54:00 INFO::Total filtered features: 0
+2022-12-11 05:54:00 INFO::Filtered feature names from abundance and prevalence filtering:
+2022-12-11 05:54:00 INFO::Total filtered features with variance filtering: 0
+2022-12-11 05:54:00 INFO::Filtered feature names from variance filtering:
+2022-12-11 05:54:00 INFO::Running selected normalization method: CLR
+2022-12-11 05:54:00 INFO::Applying z-score to standardize continuous metadata
+2022-12-11 05:54:00 INFO::Running selected transform method: NONE
+2022-12-11 05:54:00 INFO::Running selected analysis method: LM
+2022-12-11 05:54:00 INFO::Fitting model to feature number 1, Corynebacterium
+2022-12-11 05:54:00 INFO::Fitting model to feature number 2, Porphyromonas
+2022-12-11 05:54:00 INFO::Fitting model to feature number 3, ASV_63
+2022-12-11 05:54:00 INFO::Fitting model to feature number 4, Alloprevotella
+2022-12-11 05:54:00 INFO::Fitting model to feature number 5, Prevotella
+2022-12-11 05:54:00 INFO::Fitting model to feature number 6, Campylobacter
+2022-12-11 05:54:00 INFO::Fitting model to feature number 7, Dolosigranulum
+2022-12-11 05:54:00 INFO::Fitting model to feature number 8, Streptococcus
+2022-12-11 05:54:00 INFO::Fitting model to feature number 9, Gemella
+2022-12-11 05:54:00 INFO::Fitting model to feature number 10, Staphylococcus
+2022-12-11 05:54:01 INFO::Fitting model to feature number 11, ASV_35
+2022-12-11 05:54:01 INFO::Fitting model to feature number 12, Veillonella
+2022-12-11 05:54:01 INFO::Fitting model to feature number 13, Fusobacterium
+2022-12-11 05:54:01 INFO::Fitting model to feature number 14, Streptobacillus
+2022-12-11 05:54:01 INFO::Fitting model to feature number 15, ASV_22
+2022-12-11 05:54:01 INFO::Fitting model to feature number 16, Neisseria
+2022-12-11 05:54:01 INFO::Fitting model to feature number 17, Haemophilus
+2022-12-11 05:54:01 INFO::Fitting model to feature number 18, Acinetobacter
+2022-12-11 05:54:01 INFO::Fitting model to feature number 19, Moraxella
+2022-12-11 05:54:01 INFO::Counting total values for each feature
+2022-12-11 05:54:01 INFO::Writing residuals to file Results/Maaslin2_revised/genus/Bin_2/pets/residuals.rds
+2022-12-11 05:54:01 INFO::Writing fitted values to file Results/Maaslin2_revised/genus/Bin_2/pets/fitted.rds
+2022-12-11 05:54:01 INFO::Writing extracted random effects to file Results/Maaslin2_revised/genus/Bin_2/pets/ranef.rds
+2022-12-11 05:54:01 INFO::Writing all results to file (ordered by increasing q-values): Results/Maaslin2_revised/genus/Bin_2/pets/all_results.tsv
+2022-12-11 05:54:01 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Results/Maaslin2_revised/genus/Bin_2/pets/significant_results.tsv
+2022-12-11 05:54:01 INFO::Writing heatmap of significant results to file: Results/Maaslin2_revised/genus/Bin_2/pets/heatmap.pdf
+2022-12-11 05:54:01 INFO::Writing association plots (one for each significant association) to output folder: Results/Maaslin2_revised/genus/Bin_2/pets
+2022-12-11 05:54:01 INFO::Plotting associations from most to least significant, grouped by metadata
+2022-12-11 05:54:01 INFO::Plotting data for metadata number 1, age_days_numeric
+2022-12-11 05:54:01 INFO::Creating scatter plot for continuous data, age_days_numeric vs Moraxella
+2022-12-11 05:54:01 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 05:54:01 INFO::Creating scatter plot for continuous data, age_days_numeric vs Streptobacillus
+2022-12-11 05:54:01 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 05:54:01 INFO::Creating scatter plot for continuous data, age_days_numeric vs Neisseria
+2022-12-11 05:54:02 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 05:54:02 INFO::Creating scatter plot for continuous data, age_days_numeric vs Acinetobacter
+2022-12-11 05:54:02 DEBUG::`geom_smooth()` using formula 'y ~ x'
+2022-12-11 05:54:02 INFO::Plotting data for metadata number 2, collection_season2
+2022-12-11 05:54:02 INFO::Creating boxplot for categorical data, collection_season2 vs Haemophilus
+2022-12-11 05:54:03 INFO::Creating boxplot for categorical data, collection_season2 vs Corynebacterium
