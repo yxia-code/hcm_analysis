@@ -16,5 +16,5 @@
    
 **Other folders**
 
-"data": raw data  
+"data": ASV table and metadata  
 "R_scr": R scripts of ANCOM2 and Masslin2. 
